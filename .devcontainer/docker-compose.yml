@@ -24,7 +24,7 @@ services:
     volumes:
       - mariadb-data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: 
+      MYSQL_ROOT_PASSWORD: mariadb
       MYSQL_DATABASE: mariadb
       MYSQL_USER: root
       MYSQL_PASSWORD: 
