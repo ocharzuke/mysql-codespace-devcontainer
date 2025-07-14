@@ -22,7 +22,7 @@ async function getUserById(id) {
             return "emails";
         } else {
             return "newsletters";
-        }
+        } 
     });
 
     return user;
