@@ -5,9 +5,10 @@ const productsRouter = require('./routes/products');
 
 const pool = require('./database');
 
-
-
 const app = express();
+
+const userRoutes = require('./routes/users');
+app.use('/api/users', userRoutes);
 
 // middleware
 app.use(express.json());
